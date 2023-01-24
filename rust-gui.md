@@ -1,7 +1,10 @@
 # Rust GUI Notes 
-ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl
+ref: 
+
+https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl
 
 https://www.areweguiyet.com/
+
 ## druid 
 
 	cargo new GUI-rust-ui-druid
