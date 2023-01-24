@@ -1,6 +1,7 @@
 # Rust GUI Notes 
 ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl
 
+https://www.areweguiyet.com/
 ## druid 
 
 	cargo new GUI-rust-ui-druid
@@ -62,7 +63,7 @@ ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-
 			.with_child(flex)
 	}
 
-## fltk 
+## fltk - 2023 01 fail
 
 	cargo new gui-fltk
 
@@ -91,7 +92,7 @@ ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-
 
 
 
-## gtk cd ..
+## gtk - 2023 01 fail 
 
 	cargo new gui-gtk
 
@@ -101,8 +102,7 @@ ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-
 
 	cargo add gio --features=v2_44
 
-## ice 
-
+## ice  - 2023 01 fail
 
 	cargo new gui-iced
 
@@ -111,10 +111,14 @@ ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-
 	cargo add iced --git "https://github.com/hecrj/iced.git" --features glow
 
 
-## sciter 
+## sciter - 2023 01 fail 
 
 
-## sciter
+	sudo apt-get install -y libwebkit2gtk-4.0-dev
+
+	wget https://sciter.com/sdk/sciter-sdk.zip
+
+	cp ~/sciter-js-sdk-main/bin/linux/arm32/libsciter-gtk.so .
 
 	cargo new gui-sciter
 
