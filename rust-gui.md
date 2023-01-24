@@ -8,9 +8,9 @@ https://www.areweguiyet.com/
 
 ## druid 
 
-	cargo new GUI-rust-ui-druid
+	cargo new gui-druid
 
-	cd GUI-rust-ui-druid
+	cd gui-druid
 
 	cargo add druid
 
